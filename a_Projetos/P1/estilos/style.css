@@ -14,7 +14,7 @@ html, body{
 body{
     background-image: url('../imagens/fundo-madeira.jpg');
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: center center;
     background-size: cover;
     background-attachment: fixed;
 } 
@@ -35,8 +35,8 @@ section#telefone{
     width: 311px;
     
     background-image: url('../imagens/frame-iphone.png');
-    
     background-repeat: no-repeat;
+    background-position: left center;
 }
 
 iframe#tela{
@@ -44,12 +44,12 @@ iframe#tela{
     top: 80px;
     left: 22px;
     width: 269px;
-    height: 471px;
-    border-radius: 3px;
+    height: 471px;  
 }
 section#social{
     position: relative;
     top: 25%;
+    width: 10%;
 }
 section#social img{
     width: 50px;
