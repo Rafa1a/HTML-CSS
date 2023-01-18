@@ -10,7 +10,8 @@
 </head>
 <body onresize="mundouTamanho()">
     <header>
-        <img src="imagens/icon-phone.png" alt="fone" onclick="clickMenu()">
+        <img src="imagens/icon-phone.png" alt="fone" onclick="clickMenu()" id="fone1">
+        <img src="imagens/icon-phone.png" alt="fone" id="fone2">
         <menu id="itens">
             <ul>
                 <li><a href="#">Opcao 1</a></li>
@@ -33,7 +34,7 @@
     </main>
     <script>
         function mundouTamanho(){
-            if(window.innerWidth >= 768 ){
+            if(window.innerWidth >= 768){
                 itens.style.display = 'block'
             }else{
                 itens.style.display = 'none'

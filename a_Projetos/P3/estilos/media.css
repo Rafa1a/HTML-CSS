@@ -1,7 +1,14 @@
 @charset "utf-8";
 
-@media screen and (min-width: 728px) {
+@media screen and (min-width: 768px) {
     menu{
         display: block;
     }
+    img#fone1{
+        display: none;
+    }
+    img#fone2{
+        display: inline-block;       
+    }
+    
 }

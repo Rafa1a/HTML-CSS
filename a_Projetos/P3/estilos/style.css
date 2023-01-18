@@ -12,6 +12,9 @@ img{
     background-color: white;
     border-radius: 50%;
 }
+img#fone2{
+    display: none;
+}
 body{
     background-color: rgb(189, 189, 189);
 }
