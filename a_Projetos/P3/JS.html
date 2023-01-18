@@ -10,7 +10,7 @@
 <body>
     <header>
         <img src="imagens/icon-phone.png" alt="fone" onclick="clickMenu()">
-        <menu>
+        <menu id="itens">
             <ul>
                 <li><a href="#">Opcao 1</a></li>
                 <li><a href="#">Opcao 2</a></li>
@@ -20,6 +20,7 @@
     </header>
     <main>
         <section>
+            <h1>testando imagem menu clique</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, animi asperiores cum eius corrupti quae nobis qui! Incidunt facilis ducimus eligendi nobis fugit eos quisquam culpa, provident recusandae, cumque aliquid?</p>
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, animi asperiores cum eius corrupti quae nobis qui! Incidunt facilis ducimus eligendi nobis fugit eos quisquam culpa, provident recusandae, cumque aliquid?</p>
@@ -29,5 +30,15 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, animi asperiores cum eius corrupti quae nobis qui! Incidunt facilis ducimus eligendi nobis fugit eos quisquam culpa, provident recusandae, cumque aliquid?</p>
         </section>
     </main>
+    <script>
+        function clickMenu(){
+            if(itens.style.display == 'block'){
+                itens.style.display = 'none'
+                
+            }else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>

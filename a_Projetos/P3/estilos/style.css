@@ -1,2 +1,58 @@
 @charset "utf-8";
 
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    cursor: pointer;
+
+}img:hover{
+    background-color: white;
+    border-radius: 50%;
+}
+body{
+    background-color: rgb(189, 189, 189);
+}
+header{
+    padding: 10px;
+    text-align: center;
+}
+menu{
+    display: none;
+    background-color: rgb(99, 99, 99);
+    
+}
+menu > ul{
+    
+    list-style-type: none;
+    
+}
+menu > ul > li > a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-top: 1px solid white;    
+}
+menu > ul > li > a:hover{
+    background-color: rgb(139, 139, 139);
+}
+
+main{
+    background-color: white;
+    width: 80vw;
+    margin: auto;
+    padding: 15px;
+    border-radius: 15px;
+}
+main h1{
+    margin: 20px;
+}
+main > section > p{
+    text-align: justify;
+    text-indent: 20px;
+    padding: 8px;
+    
+}
